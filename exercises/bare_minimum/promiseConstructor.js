@@ -27,21 +27,6 @@ var pluckFirstLineFromFileAsync = function(filePath) {
   
 };
 
-// pluckFirstLineFromFileAsync('promisification.js')
-//   .then(function(value) {
-//     return otherAsyncFunction();
-//   }).catch(function(err) {
-//     console.log(err);
-//   })
-  
-// pluckFirstLineFromFile('promisification.js', function(err, value) {
-//   if(err) { 
-//     console.log(err);
-//   } else {
-//     console.log(value);
-//   }
-// })
-
 
 // This function should retrieve the status code of a GET request to `url`
 var getStatusCodeAsync = function(url) {
